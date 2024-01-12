@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00f260, #0575e6);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.login-container {
+    position: relative;
+    background: #fff ;
+    max-width: 100vh;
+    background-color: rgb(187 247 208);
+    padding: 2rem;
+    border-radius: 0 50px 0 50px;
+    border: 1px solid rgb(34 197 94);
+    box-shadow: 0 0 10px rgba(0, 10, 0.1);
+    backdrop-filter: blur(50px);
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-container {
+    position: relative;
+    background: #fff;
+    max-width: 100vh;
+    background-color: rgb(187 247 208);
+    padding: 2rem;
+    border-radius: 0 50px 0 50px;
+    border: 1px solid rgb(34 197 94);
+    box-shadow: 0 0 10px rgba(0, 10, 0.1);
+    backdrop-filter: blur(50px);
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-container:hover{
+
+ mix-blend-mode:luminosity;
+
+	flex-shrink: 0;
+}
+.signup-container:hover {
+
+mix-blend-mode: luminosity;
+
+  	flex-shrink: 0;
+  
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    justify-content: center;
+}
+
+label {
+    position: relative;
+    display: block;
+    margin-bottom: 8px;
+
+
+}
+
+input {
+    width: 100%;
+    position: relative;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid rgb(34 197 94);
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 10, 0.1);
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: #45a049;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1.5rem;
+}
+
+
+/* Add more styling as per your design preferences */

@@ -55,13 +55,13 @@ body {
 }
 
 .login-container:hover{
-mix-blend-mode: darken;
+mix-blend-mode: luminosity;;
    background: #FDA8CF;
 	flex-shrink: 1;
 }
 .signup-container:hover {
 
-mix-blend-mode: darken;
+mix-blend-mode: luminosity;
    background: #FDA8CF; 
   	flex-shrink: 1;
   

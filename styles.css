@@ -81,6 +81,7 @@ label {
     display: block;
     margin-bottom: 8px;
 
+ display: inline-block;
 
 
 }
@@ -92,7 +93,7 @@ input {
     margin-bottom: 16px;
     box-sizing: border-box;
     border-radius: 10px 10px 10px 10px;
-   display: inline-block;
+    display: inline-block;
 }
 
 

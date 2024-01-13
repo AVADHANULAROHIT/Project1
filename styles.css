@@ -57,13 +57,16 @@ body {
 .login-container:hover{
 
  mix-blend-mode:luminosity;
+   background: #FDA8CF;
 
 	flex-shrink: 0;
 }
 .signup-container:hover {
 
 mix-blend-mode: luminosity;
+   background: #FDA8CF;
 
+  
   	flex-shrink: 0;
   
 }
@@ -114,6 +117,9 @@ button:hover {
     background-color: #45a049;
     border-radius: 20px 20px 20px 20px;
     font-size: 1.5rem;
+ 
+  text-transform: uppercase;
+
 }
 
 

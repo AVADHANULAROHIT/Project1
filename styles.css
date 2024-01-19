@@ -24,7 +24,7 @@ background: linear-gradient(145deg, #2a2922, #23221d);
 box-shadow:  21px 21px 5px #100f0d,
              -21px -21px 5px #3e3d33;
     backdrop-filter: blur(50px);
-    margin: 10px;
+    margin: 10px 50px;
     width: 300px;
     display: flex;
     height: auto;

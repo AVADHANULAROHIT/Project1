@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient( to right, #22c1c3, #fdbb2d);
+    background:#dcc218;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,18 +15,19 @@ body {
 
 .login-container {
     position: relative;
-    background: #fff ;
+    color:#fff;
     max-width: 100vh;
     background-color:#40d3d5;
     padding: 2rem;
-    border-radius: 0 50px 0 50px;
-    border: 1px solid rgb(34 197 94);
-    box-shadow: 0 0 10px rgba(0, 10, 0.1);
+   border-radius: 58px;
+background: linear-gradient(145deg, #2a2922, #23221d);
+box-shadow:  21px 21px 5px #100f0d,
+             -21px -21px 5px #3e3d33;
     backdrop-filter: blur(50px);
     margin: 10px;
     width: 300px;
     display: flex;
-    height: 400px;
+    height: auto;
    align-items: flex-start;
     justify-content: center;
   vertical-align: center;
@@ -36,13 +37,14 @@ body {
 }
 .signup-container {
     position: relative;
-    background: #37c0db;
+ color:#ffff;
     max-width: 100vh;
     background-color: #e4ca6d;
     padding: 2rem;
-    border-radius: 0 50px 0 50px;
-    border: 1px solid rgb(34 197 94);
-    box-shadow: 0 0 10px rgba(0, 10, 0.1);
+     border-radius: 58px;
+background: linear-gradient(145deg, #2a2922, #23221d);
+box-shadow:  21px 21px 5px #100f0d,
+             -21px -21px 5px #3e3d33;
     backdrop-filter: blur(50px);
     margin: 10px;
     width: 300px;
@@ -117,6 +119,8 @@ button:hover {
   text-transform: uppercase;
 
 }
-
+h2{
+  color:#ffff;
+}
 
 /* Add more styling as per your design preferences */

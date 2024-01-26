@@ -57,7 +57,7 @@ box-shadow:  21px 21px 5px #100f0d,
 }
 
 .login-container:hover{
-mix-blend-mode: luminosity;;
+mix-blend-mode: luminosity;
    background: #FDA8CF;
 	flex-shrink: 1;
 }
